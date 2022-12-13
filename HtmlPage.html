@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+   
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding: 10px;
+  padding-top: 0px;
+  height: 350px; 
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+.vertical {
+            border-left: 2px solid black;
+            height: 300px;
+            position:absolute;
+            left: 50%;
+        }
+
+</style>
+</head>
+<body>
+
+<table border="1" align="center" width="500px">
+    <tr>
+        <td>
+            <table align="center">
+                <tr><td align="center">
+                    <h2>Delhi University</h2>
+                </td></tr>
+                <tr>
+                    <td align="center">
+                        <nav>
+                            <a href="/Presentation/">Presentation</a> |
+                            <a href="/Studies/">Studies</a> |
+                            <a href="/Staff/">Staff</a> |
+                            </nav>
+                    </td>
+                </tr>
+            </table>
+            <table><tr height="20px"></tr></table>
+            <table  align="center">
+                <tr>
+                    <td>
+                        <div class="row">
+                            <div class="column">
+                            <table width="100%">
+                                <tr>
+                                    <td align="left"><h2>News</h2></td>
+                                </tr>
+                                <tr>
+                                    <td align="left">News1  -  Nov 25, 2022</td>
+                                </tr>
+                                <tr>
+                                    <td align="left" >Celebration of 'Samvidhan Diwas (Constitution Day)</td>
+                                </tr>
+                                <tr><td height="30px"></td></tr>
+                                <tr>
+                                    <td align="left">News2 -  Oct 13, 2022</td>
+                                </tr>
+                                <tr>
+                                    <td align="left">Admission 2022-2023 at Department of Distance and Continuing Education (DDCE), SOL/COL</td>
+                                </tr>
+                            </table>
+                            </div>
+                            <div class = "vertical"></div>
+                            <div class="column">
+                            <table>
+                                <tr>
+                                    <td align="left"><h2>Announcements</h2></td>
+                                </tr>
+                                <tr>
+                                    <td align="left">Angular</td>
+                                </tr>
+                                <tr>
+                                    <td align="left">Angular Classes</td>
+                                </tr>
+                                <tr><td height="30px"></td></tr>
+                                <tr>
+                                    <td align="left">React</td>
+                                </tr>
+                                <tr>
+                                    <td align="left">React Classes</td>
+                                </tr>
+                            </table>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        Contact: info@university.com<br/>
+                        (c) university,20
+                    </td>
+                </tr>
+            </table>
+</td></tr>
+
+</table>
+
+</body>
+</html>
